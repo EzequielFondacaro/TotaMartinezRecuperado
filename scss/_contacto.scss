@@ -1,0 +1,15 @@
+/* Contacto */
+/* FORM */
+.sectionForm{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.btn{
+    margin-bottom: 10px;
+    color: $bg-color-rose;
+    background-color: black;
+}

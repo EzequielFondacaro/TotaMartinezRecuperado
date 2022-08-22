@@ -1,0 +1,653 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Fondo y Header Página Completa */
+body {
+  background-color: #ffdff7;
+}
+
+header {
+  background-color: black;
+  border: solid 3px black;
+}
+header a {
+  text-decoration: none;
+}
+
+.liHeader {
+  display: inline-block;
+  margin: 20px;
+  font-size: 20px;
+}
+
+ul li a {
+  color: #ffdff7;
+}
+
+.ulHeader {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.logoNavbar {
+  width: 130px;
+  height: 130px;
+}
+
+ul li .nav-link {
+  color: #ffdff7;
+}
+ul li .nav-link:hover {
+  color: beige;
+}
+
+/* Footer Página completa */
+.copyright {
+  width: fit-content;
+  margin: auto;
+  bottom: 0;
+  color: #ffdff7;
+}
+
+footer {
+  background-color: black;
+  border: solid 1px #ffdff7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.redes {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+i {
+  color: #ffdff7;
+  font-size: 30px;
+}
+i:hover {
+  color: beige;
+}
+.sectionRedes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-row-gap: 1px;
+  justify-items: center;
+}
+
+/* Index */
+/* Foto Logo Index */
+.fotoIndex {
+  width: 100%;
+}
+
+.logoIndex {
+  position: absolute;
+  width: 25%;
+  right: 1%;
+  top: 10px;
+}
+
+.section__index--img {
+  position: relative;
+}
+
+.descripcionIndex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descripcionIndex-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parrafo_index {
+  background-color: #232323;
+  padding: 20px;
+  color: #ffdff7;
+  border-radius: 3px;
+  font-size: 2.3rem;
+  margin: 0px 10px;
+}
+
+.descripcionIndex h2 {
+  color: #ffdff7;
+}
+
+/* Galeria */
+/* Productos (Cards) */
+.card {
+  display: flex;
+  flex-direction: row;
+  left: 5px;
+  top: 5px;
+  position: relative;
+  height: 360px;
+
+  margin-top: 10px;
+}
+
+.card-body {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 80%;
+  font-size: small;
+  font-style: italic;
+}
+.card-body:hover {
+  opacity: 0%;
+}
+.card-body p {
+  color: #ffdff7;
+}
+.card-body h5 {
+  color: #ffdff7;
+}
+
+/* Boton Galeria */
+.div__boton__galeria {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  transform: scaleZ(1.5);
+  margin-top: 50px;
+}
+
+/* Quienes Somos */
+/* imagenes */
+.imagenesQS {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.img__quienes__somos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+/* Texto y Titulo */
+.titulo__quienes__somos {
+  margin: 0 auto;
+  width: 80%;
+}
+.titulo__quienes__somos h2 {
+  text-align: center;
+  padding: 15px;
+}
+.titulo__quienes__somos p {
+  width: 100%;
+  border: solid 1px black;
+  padding: 15px;
+}
+
+/* Contacto */
+/* FORM */
+.sectionForm {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.btn {
+  margin-bottom: 10px;
+  color: #ffdff7;
+  background-color: black;
+}
+
+/* Ubicación */
+.sectionMapa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pubicacion {
+  border: solid 1px black;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.tituloUbicacion {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 15px;
+}
+
+.ubicacion {
+  width: fit-content;
+  padding: 10px;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Mapa */
+.mapa {
+  width: 100%;
+  border: solid 1px black;
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    background-color: #ffdff7;
+  }
+  header {
+    background-color: black;
+    border: solid 3px black;
+  }
+  header a {
+    text-decoration: none;
+  }
+  .liHeader {
+    display: inline-block;
+    margin: 20px;
+    font-size: 5px;
+    font-family: "Berkshire Swash", cursive;
+  }
+  ul li a {
+    color: #ffdff7;
+    font-size: medium;
+  }
+  .ulHeader {
+    margin: 0 auto;
+    width: fit-content;
+  }
+  .logoNavbar {
+    width: 130px;
+    height: 130px;
+  }
+
+  ul li .nav-link {
+    color: #ffdff7;
+  }
+  /* Footer Página completa */
+  .copyright {
+    width: fit-content;
+    margin: auto;
+    bottom: 0;
+    color: #ffdff7;
+    font-size: medium;
+  }
+  footer {
+    background-color: black;
+    border: solid 1px #ffdff7;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Redes */
+  .redes i {
+    color: #ffdff7;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  /* Index */
+  /* Foto Logo Index */
+  .fotoIndex {
+    width: 100%;
+  }
+
+  .logoIndex {
+    position: absolute;
+    width: 38%;
+    right: 1%;
+    top: 2%;
+  }
+  .section__index--img {
+    position: relative;
+  }
+  .descripcionIndex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .descripcionIndex p {
+    color: white;
+  }
+  /* Galeria */
+  /* Productos (Cards) */
+  .card {
+    display: flex;
+    flex-direction: row;
+    left: 5px;
+    top: 5px;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    filter: grayscale(1);
+    margin-top: 50px;
+  }
+  .card-body {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 80%;
+    font-size: small;
+    font-style: italic;
+  }
+  .card-body p {
+    color: #ffdff7;
+  }
+  .card-body h5 {
+    color: #ffdff7;
+  }
+  .card-body:hover {
+    opacity: 0%;
+  }
+  .card:hover {
+    filter: grayscale(0);
+  }
+  /* Boton Galeria */
+  .div__boton__galeria {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    transform: scaleZ(1.5);
+    margin-top: 50px;
+  }
+  /* Quienes Somos */
+  /* imagenes */
+  .imagenesQS {
+    width: 375px;
+    margin: 0 auto;
+  }
+  .img__quienes__somos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+  }
+  /* Texto y Titulo */
+  .titulo__quienes__somos p {
+    width: 100%;
+    border: solid 1px black;
+    padding: 15px;
+  }
+  .titulo__quienes__somos h2 {
+    text-align: center;
+    padding: 15px;
+  }
+  .titulo__quienes__somos {
+    margin: 0 auto;
+    width: 80%;
+  }
+  /* Contacto */
+  /* FORM */
+  .sectionForm {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
+  /* Ubicación */
+  .sectionMapa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .pubicacion {
+    border: solid 1px black;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .tituloUbicacion {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 15px;
+  }
+  .ubicacion {
+    width: fit-content;
+    padding: 10px;
+  }
+  .list-group {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Mapa */
+  .mapa {
+    width: 100%;
+    border: solid 1px black;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #ffdff7;
+  }
+  header {
+    background-color: black;
+    border: solid 3px black;
+  }
+  header a {
+    text-decoration: none;
+  }
+  .liHeader {
+    display: inline-block;
+    margin: 20px;
+    font-size: 15px;
+    font-family: "Berkshire Swash", cursive;
+  }
+  ul li a {
+    color: #ffdff7;
+    font-size: medium;
+  }
+  .ulHeader {
+    margin: 0 auto;
+    width: fit-content;
+  }
+  .logoNavbar {
+    width: 30px;
+    opacity: 50%;
+  }
+  .logoNavbar:hover {
+    opacity: 100%;
+  }
+  ul li .nav-link {
+    color: #ffdff7;
+  }
+  /* Footer Página completa */
+  .copyright {
+    width: fit-content;
+    margin: auto;
+    bottom: 0;
+    color: #ffdff7;
+    font-size: medium;
+  }
+  footer {
+    background-color: black;
+    border: solid 1px #ffdff7;
+  }
+  /* Redes */
+  .redes {
+    width: 50px;
+    height: 50px;
+  }
+  .sectionRedes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-row-gap: 1px;
+    justify-items: center;
+  }
+  .wp {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  .wp:hover {
+    transform: scale(1.1);
+  }
+  /* Index */
+  /* Foto Logo Index */
+  .fotoIndex {
+    width: 100%;
+    opacity: 50%;
+  }
+  .logoIndex {
+    position: absolute;
+    width: 38%;
+    right: 1%;
+    top: 2%;
+  }
+  .section__index--img {
+    position: relative;
+  }
+  .descripcionIndex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .descripcionIndex p {
+    color: white;
+  }
+  /* Galeria */
+  /* Productos (Cards) */
+  .card {
+    display: flex;
+    flex-direction: row;
+    left: 5px;
+    top: 5px;
+    position: relative;
+    height: 175px;
+    width: 175px;
+    filter: grayscale(1);
+    margin-top: 20px;
+  }
+  .card-body {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 80%;
+    font-size: small;
+    font-style: italic;
+  }
+  .card-body p {
+    color: #ffdff7;
+  }
+  .card-body h5 {
+    color: #ffdff7;
+  }
+  .card-body:hover {
+    opacity: 0%;
+  }
+  .card:hover {
+    filter: grayscale(0);
+  }
+  /* Boton Galeria */
+  .div__boton__galeria {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    transform: scaleZ(1.5);
+    margin-top: 20px;
+  }
+  /* Quienes Somos */
+  /* imagenes */
+  .imagenesQS {
+    width: 100px;
+    margin: 0 auto;
+  }
+  .img__quienes__somos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+  }
+  /* Texto y Titulo */
+  .titulo__quienes__somos p {
+    width: 100%;
+    border: solid 1px black;
+    padding: 15px;
+  }
+  .titulo__quienes__somos h2 {
+    text-align: center;
+    padding: 15px;
+  }
+  .titulo__quienes__somos {
+    margin: 0 auto;
+    width: 80%;
+  }
+  /* Contacto */
+  /* FORM */
+  .sectionForm {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
+  /* Ubicación */
+  .sectionMapa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75%;
+    height: 75%;
+    top: 15px;
+    left: 15px;
+  }
+  .pubicacion {
+    border: solid 1px black;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .tituloUbicacion {
+    margin: 0 auto;
+    width: 50%;
+    padding: 2px;
+    font-size: 20px;
+  }
+  .ubicacion {
+    width: fit-content;
+    padding: 10px;
+  }
+  .list-group {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Mapa */
+  .mapa {
+    width: 100%;
+    border: solid 1px black;
+  }
+}

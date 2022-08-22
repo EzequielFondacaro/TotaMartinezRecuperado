@@ -1,0 +1,43 @@
+/* Galeria */
+/* Productos (Cards) */
+.card{
+    display: flex;
+    flex-direction: row;
+    left: 5px;
+    top: 5px;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    filter: grayscale(1);
+    margin-top: 50px;
+    &:hover{
+        filter: grayscale(0);
+    }
+}
+.card-body{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 80%;
+    font-size: small;
+    font-style: italic;
+    &:hover{
+        opacity: 0%;
+    }
+    p{
+        color: $bg-color-rose
+    }
+    h5{
+        color: $bg-color-rose
+    }
+}
+/* Boton Galeria */
+.div__boton__galeria{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    transform: scaleZ(1.5);
+    margin-top: 50px;
+}

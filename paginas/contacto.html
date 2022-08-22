@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="bolsos mujer, femenino, tota martinez, bolsos, mujer, tota, contacto, formulario, mail, comprar, pedir"/>
+    <meta name="description" content="Página de contacto de Tota Martìnez un emprendimiento de bolsos para mujeres de alta calidad con una tela impermeable y rigida, de distintos colores y personalizables a elección"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Contacto | Tota Martinez</title>
+  </head>
+  <body class="bodycontacto">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="../imagenes/logoTota.png"
+              alt="logotota"
+              class="logoNavbar"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="ulHeader">
+              <li class="liHeader">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="liHeader">
+                <a class="nav-link" href="galeria.html">Productos</a>
+              </li>
+              <li class="liHeader">
+                <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
+              </li>
+              <li class="liHeader">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="liHeader">
+                <a class="nav-link" href="ubicacion.html">Ubicación</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="sectionForm">
+      <form class="row g-3">
+        <div class="col-lr-4">
+          <label for="validationDefault01" class="form-label">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            id="validationDefault01"
+            required
+          />
+        </div>
+        <div class="col-lr-4">
+          <label for="validationDefault02" class="form-label">Apellido</label>
+          <input
+            type="text"
+            class="form-control"
+            id="validationDefault02"
+            required
+          />
+        </div>
+        <div class="col-lr-4">
+          <label for="validationDefaultUsername" class="form-label"
+            >Email</label
+          >
+          <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefaultUsername"
+              aria-describedby="inputGroupPrepend2"
+              required
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault03" class="form-label">Ciudad</label>
+          <input
+            type="text"
+            class="form-control"
+            id="validationDefault03"
+            required
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault04" class="form-label">Provincia</label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">Elegí</option>
+            <option>Buenos Aires</option>
+            <option>Catamarca</option>
+            <option>Chaco</option>
+            <option>Chubut</option>
+            <option>Córdoba</option>
+            <option>Corrientes</option>
+            <option>Entre Rios</option>
+            <option>Formosa</option>
+            <option>Jujuy</option>
+            <option>La Pampa</option>
+            <option>La Rioja</option>
+            <option>Mendoza</option>
+            <option>Misiones</option>
+            <option>Neuquén</option>
+            <option>Río Negro</option>
+            <option>Salta</option>
+            <option>San Juan</option>
+            <option>San Luis</option>
+            <option>Santa Cruz</option>
+            <option>Santa Fe</option>
+            <option>Santiago del Estero</option>
+            <option>Tierra del Fuego</option>
+            <option>Tucumán</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault05" class="form-label"
+            >Codigo Postal</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="validationDefault05"
+            required
+          />
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="invalidCheck2"
+            />
+            <label class="form-check-label" for="invalidCheck2">
+              Deseo recibir novedades sobre promociones y descuentos
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn" type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <div class="redes">
+        <a href="https://www.facebook.com" target="_blank"
+          ><i class="bi bi-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/totamartinezoficial" target="_blank"
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <a href="https://web.whatsapp.com" target="_blank"
+          ><i class="bi bi-whatsapp"></i
+        ></a>
+      </div>
+      <h6 class="copyright">©Copyright Tota Martìnez 2022 - 2023</h6> 
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

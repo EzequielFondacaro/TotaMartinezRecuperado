@@ -1,0 +1,26 @@
+/* Quienes Somos */
+/* imagenes */
+.imagenesQS{
+    width: 375px;
+    margin: 0 auto;
+}
+.img__quienes__somos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+/* Texto y Titulo */
+.titulo__quienes__somos{ 
+    margin: 0 auto;
+    width: 80%;
+    h2{
+        text-align: center;
+        padding: 15px;
+    }
+    p{
+        width: 100%;
+        border: solid 1px black;
+        padding: 15px;
+    }
+}

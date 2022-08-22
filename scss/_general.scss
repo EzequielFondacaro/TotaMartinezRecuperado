@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+$bg-color-rose: #ffdff7;
+/* Fondo y Header Página Completa */
+body{
+    background-color: $bg-color-rose
+}
+header{
+    background-color: black;
+    border: solid 3px black;
+    a{
+        text-decoration: none;
+    }
+}
+.liHeader{
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+}
+ul{
+    li{
+        a{
+            color: $bg-color-rose
+        }
+    }
+}
+.ulHeader{
+    margin: $margin-auto;
+    width: fit-content;
+}
+.logoNavbar{
+    width: 50px;
+    opacity: 50%;
+    &:hover{
+        opacity: 100%;
+    }
+}
+ul{
+    li {
+        .nav-link{
+            color: $bg-color-rose
+    }
+} 
+}
+/* Footer Página completa */
+.copyright{
+    width: fit-content;
+    margin: auto;
+    bottom: 0;
+    color: $bg-color-rose
+}
+footer{
+    background-color: black;
+    border: solid 1px $bg-color-rose
+}

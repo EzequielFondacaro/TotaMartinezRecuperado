@@ -1,0 +1,30 @@
+/* Index */
+/* Foto Logo Index */
+.fotoIndex {
+  width: 100%;
+}
+.logoIndex {
+  position: absolute;
+  width: 38%;
+  right: 1%;
+  top: 2%;
+}
+.section__index--img {
+  position: relative;
+}
+.descripcionIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+}
+.descripcionIndex {
+  p {
+    color: $bg-color-rose;
+  }
+  h2 {
+    color: $bg-color-rose;
+  }
+}

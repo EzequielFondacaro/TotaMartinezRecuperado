@@ -1,0 +1,30 @@
+/* Ubicación */
+.sectionMapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+.pubicacion{
+    border: solid 1px black;
+    width: 90%;
+    margin: 0 auto;
+}
+.tituloUbicacion{
+    margin: 0 auto;
+    width: fit-content;
+    padding: 15px;
+}
+.ubicacion{
+    width: fit-content;
+    padding: 10px;
+}
+.list-group{
+    display: flex;
+    flex-direction: column;
+    
+}
+/* Mapa */
+.mapa{
+    width: 100%;
+    border: solid 1px black;
+}
